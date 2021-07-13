@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-  <title>Movie Data | Movie Success Prediction</title>
-  <meta name="keywords" content="Movie Success Prediction">
+  <title>Film Data | Film Success Prediction</title>
+  <meta name="keywords" content="Film Success Prediction">
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -41,8 +41,8 @@
                   <ul class="menu-area-main">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about_us.html">About Us</a></li>
-                    <li class="active"><a href="filmdata.html">Movie Data</a></li>
-                    <li><a href="#contact">Prediction</a></li>
+                    <li ><a href="filmdata.html">Movie Data</a></li>
+                    <li class="active"><a href="prediksipage.html">Prediction</a></li>
                   </ul>
                 </nav>
               </div>
@@ -52,58 +52,62 @@
       </div>
     </div>
   </header>
-  <main class="__film-container">
-    <input class="form-control form-control-lg __film-search" type="text" placeholder="Search Here">
-    <table class="table">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-          <td>Mark</td>
-          <td>Otto</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-          <td>Larry</td>
-          <td>the Bird</td>
-        </tr>
-      </tbody>
-    </table>
+  <main class="__prediksi">
+    <div class="form-group">
+      <label for="">Title</label>
+      <input type="text" placeholder="Movie Title" />
+    </div>
+    <div class="form-group">
+      <label for="">Year</label>
+      <input type="number" placeholder="Movie Year" />
+    </div>
+    <div class="form-group">
+      <label for="">Genre</label>
+      <input type="text" placeholder="Genre 1, Genre 2, Genre 3" />
+    </div>
+    <!-- Wajib -->
+    <div class="form-group">
+      <label for="">Average Vote*</label>
+      <input type="number" placeholder="1, 2, 3, ..., 10" required />
+    </div>
+    <div class="form-group">
+      <label for="">Number of Votes*</label>
+      <input type="number" placeholder="Number of Votes" required />
+    </div>
+    <div class="form-group">
+      <label for="">Budget*</label>
+      <input type="number" placeholder="USD" required />
+    </div>
+    <div class="form-group">
+      <label for="">Worldwide Gross Income*</label>
+      <input type="number" placeholder="USD" required />
+    </div>
+    <div class="form-group">
+      <label for="">Duration<sub>/minutes</sub>*</label>
+      <input type="number" placeholder="ex: 60" required />
+    </div>
+    <!-- Wajib -->
+    <div class="form-group">
+      <label for="">Language</label>
+      <input type="text" placeholder="Language" />
+    </div>
+    <div class="form-group">
+      <label for="">Director</label>
+      <input type="text" placeholder="Director name" />
+    </div>
+    <div class="form-group">
+      <label for="">Writer</label>
+      <input type="text" placeholder="Writer name" />
+    </div>
+    <div class="form-group">
+      <label for="">Production Company</label>
+      <input type="text" placeholder="Company name" />
+    </div>
+    <div class="form-group">
+      <label for="">Actors</label>
+      <input type="text" placeholder="Actor name" />
+    </div>
+    <button class="btn btn-primary">Prediction</button>
   </main>
   <!-- footer -->
   <footer>
@@ -111,7 +115,7 @@
       <div class="menu-container">
         <div class="menu-list">
           <a href="about_us.html" class="menu-link">About Us</a>
-          <a href="#" class="menu-link">Movie Data</a>
+          <a href="filmdata.html" class="menu-link">Movie Data</a>
         </div>
         <div class="company">
           <div class="logo">
@@ -119,7 +123,7 @@
           </div>
         </div>
         <div class="menu-list">
-          <a href="#" class="menu-link">Prediction</a>
+          <a href="prediksipage.html" class="menu-link">Prediction</a>
           <a href="#" class="menu-link">Feedback</a>
         </div>
       </div>
